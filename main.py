@@ -15,10 +15,8 @@ def main():
     f_perc = (female_students_int / total_students) * 100
 
     print(f'The total number of students: \t \t {total_students}')
-    print(
-        f'The number of males and females: \t {male_students_int} \t {female_students_int}')
-    print(
-        f'The Percentage of males and females: \t {m_perc:.2f}%  {f_perc:.2f}%')
+    print(f'The number of males and females: \t {male_students_int} \t {female_students_int}')
+    print(f'The Percentage of males and females: \t {m_perc:.2f}%  {f_perc:.2f}%')
 
     """
     ########################################
